@@ -1,16 +1,41 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: teal;
+    margin: 0;
 }
 
 div {
     background-color: tomato;
     color: white;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 32px; /* tamanho padrão 16px */
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     text-align: center;
     width: 400px;
     height: 400px;
-    line-height: 400px;
+    line-height: 200px;
+    padding: 50px;
+    border: 50px solid white;
+    /* border-width: 50px;
+    border-style: solid;
+    border-color: white; */
+    margin: 50px auto;
+    /* box-sizing: border-box; */
+}
+
+div.redcolor{
+    background-color: red;
+}
+
+div.borderdif{
+    border-style: dashed;
+    border-width: 5px;
+    line-height: 290px;
 }
