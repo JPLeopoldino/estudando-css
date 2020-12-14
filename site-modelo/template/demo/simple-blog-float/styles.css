@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway",sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #F1F1F1;
+}
+
+img {
+    width: 100%;
+}
+
+.page {
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+}
+.header h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 48px;
+    text-transform: uppercase;
+}
+.header p {
+    margin: 24px 0 48px;
+}
+.header p span {
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+}
+
+.main > div {
+    padding: 16px;
+}
+
+.content {
+    width: 66.66%;
+    float: left;
+}
+.content > div {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.content .item {
+    margin-bottom: 32px;
+    background-color: white;
+}
+.content .item .desc {
+    padding: 10px 16px 16px;
+}
+.content .item .desc h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.content .item .desc .info {
+    font-size: 18px;
+    margin: 16px 0 32px;
+}
+.content .item .desc p {
+    margin-bottom: 32px;
+}
+.content .item .nav {
+    overflow: hidden;
+}
+.content .item .nav a {
+    float: left;
+    padding: 12px 24px;
+    border: 1px solid #CCC;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.content .item .nav > span {
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-top: 18px;
+}
+.content .item .nav > span span {
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    margin-left: 10px;
+}
+
+.sidebar {
+    width: 33.33%;
+    float: right;
+}
+.sidebar > div {
+    background-color: white;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.sidebar .author .info {
+    padding: 8px 16px 16px;
+}
+.sidebar .author h2 {
+    margin-bottom: 16px;
+}
+.sidebar .elem h2 {
+    padding: 16px;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: #F1F1F1;
+}
+.sidebar .popular .item {
+    overflow: hidden;
+    padding: 16px;
+    border-bottom: 1px solid #DDD;
+}
+.sidebar .popular .item:hover {
+    background-color: #CCC;
+}
+.sidebar .popular .item h3 {
+    font-weight: 100;
+    font-size: 18px;
+}
+.sidebar .popular .item img {
+    width: 50px;
+    float: left;
+    margin-right: 16px;
+}
+.sidebar .tags .info {
+    padding: 16px;
+    overflow: hidden;
+}
+.sidebar .tags .info span {
+    padding: 0 8px;
+    font-size: 12px;
+    background-color: #F1F1F1;
+    margin: 0 2px 20px;
+    float: left;
+}
+.sidebar .tags .info span.current {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    margin-top: -3px;
+}
+
+.footer {
+    background-color: #616161;
+    padding: 32px 16px;
+    color: white;
+    margin-top: 16px;
+}
+.footer a {
+    color: white;
+}
+.footer .nav {
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+.footer .nav a {
+    float: left;
+    padding: 12px 24px;
+    background-color: black;
+    text-decoration: none;
+    margin-right: 4px;
+}
+.footer .nav a:hover {
+    background-color: #F1F1F1;
+    color: black;
+}
+.footer .nav a.clear {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+.footer .copyright {
+    padding-bottom: 18px;
+}
+
+
+@media only screen and ( max-width: 1400px ) {
+    .page {
+        width: 100%;
+    }
+}
+
+@media only screen and ( max-width: 992px ) {
+    .main > div {
+        width: 100%;
+    }
+}

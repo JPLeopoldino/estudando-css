@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: default;
+}
+
+.header{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.header h1{
+    text-transform: uppercase;
+}
+
+.header p{
+    padding-top: 25px;
+}
+
+.page{
+    width: 1210px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.square-black-box{
+    color: #FFF;
+    background-color: #000;
+    padding: 5px 10px;
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.square-black-box:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+.square-black-circle{
+    color: #FFF;
+    background-color: #000;
+    padding: 5px 9px;
+    font-size: 13px;
+    border-radius: 26px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.square-black-circle:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+.main{
+    float: left;
+    width: 800px;
+}
+
+/* .content{
+    margin: 0;
+} */
+
+.content-box{
+    background-color: #FFF;
+    width: 700px;
+    /* height: 450px; */
+    margin: 40px 0px 0px 70px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.content .content-box:first-of-type{
+    margin-top: 50px;
+}
+
+.content-box img{
+    object-fit: cover;
+}
+
+.content-box .content-title{
+    background-color: #FFF;
+    font-size: 22px;
+    padding: 15px 15px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.content-box .desc{
+    background-color: #FFF;
+    /* padding: 5px 0px 15px 15px; */
+    padding: 0px 15px;
+}
+
+.content-box .desc .content-desc{
+    background-color: #FFF;
+    font-weight: lighter;
+}
+
+.content-box .clear-text{
+    color: #8e8e8e;
+    background-color: #FFF;
+    font-weight: lighter;
+}
+
+.content-box p{
+    background-color: #FFF;
+    padding: 25px 15px;
+    text-align: left;
+    line-height: 23px;
+}
+
+.content-footer{
+    overflow: hidden;
+    background-color: #FFF;
+    padding: 0px 15px 15px 15px;
+}
+
+.content-button{
+    float: left;
+    border: 1px solid #b6b6b6;
+    padding: 13px 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    background-color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.content-button:hover{
+    background-color: #d6d6d6;
+    border: 1px inset #7e7e7e;
+    color: #202020;
+    transition: 0.1s ease-in;
+}
+
+.content-comments{
+    float: right;
+    background-color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.main-sidebar{
+    float: right;
+    width: 400px;
+    margin-right: 10px;
+}
+
+.sidebar-box{
+    background-color: #FFF;
+    /* height: 450px; */
+    margin-top: 40px;
+    margin-bottom: 35px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar .sidebar-box:first-of-type{
+    margin-top: 50px;
+}
+
+.sidebar-box .sidebar-title-bold{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #FFF;
+}
+
+.sidebar-box .sidebar-text{
+    padding: 10px 15px 20px 15px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 23px;
+    background-color: #FFF;
+}
+
+.sidebar-box .sidebar-title{
+    font-weight: lighter;
+    padding: 25px 15px;
+    font-size: 20px;
+    background-color: #FFF;
+}
+
+.sidebar-box .posts-block{
+    overflow: hidden;
+    border: 1px solid #e4e4e4;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.sidebar-box .posts-block .posts-block-img{
+    display: inline;
+    float: left;
+    background-color: #FFF;
+}
+
+.sidebar-box .posts-block .posts-block-img img{
+    padding: 15px;
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    border-color: transparent;
+    background-color: #FFF;
+}
+
+.sidebar-box .posts-block .posts-block-img img:hover{
+    border: 2px inset #ffffff;
+    transition: 0.1s ease-in;
+}
+
+.sidebar-box .posts-block .post-title{
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.sidebar-box .posts-block .post-subtitle{
+    font-weight: lighter;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.sidebar-box .tags{
+    overflow: hidden;
+    padding-left: 15px;
+    background-color: #FFF;
+}
+
+.sidebar-box .tags b{
+    margin: 0;
+    cursor: pointer;
+}
+
+.tag-titles{
+    font-size: 13px;
+    padding: 10px 5px;
+    float: left;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.tag-titles:hover{
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #616161;
+    padding: 35px 0px 30px 20px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #616161;
+}
+
+.nav .clear-button{
+    float: left;
+    padding: 15px 35px;
+    margin: 5px;
+    background-color: #434343;
+    text-decoration: none;
+    color: #5e5e5e;
+    cursor: not-allowed;
+}
+
+.nav .clear-button:hover{
+    background-color: #575757;
+    transition: 0.2s ease-in;
+}
+
+.nav .button{
+    float: left;
+    padding: 12px 33px;
+    margin: 5px;
+    background-color: #000;
+    text-decoration: none;
+    color: #FFF;
+    border: 2px inset transparent;
+    cursor: pointer;
+}
+
+.nav .button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 48, 48);
+    transition: 0.2s ease-out;
+    border: 2px inset #434343;
+}
+
+.footer .copright{
+    background-color: #616161;
+    color: #FFF;
+    margin: 50px 5px;
+}
+
+.footer .copright a{
+    background-color: #616161;
+    color: #FFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .copright a:hover{
+    color: lightseagreen;
+    transition: 0.2s ease-out;
+}
