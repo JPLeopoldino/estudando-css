@@ -17,10 +17,14 @@ body{
 }
 
 .menu{
-    border: 1px solid #FFF;
     width: 900px;
     display: flex;
     justify-content: space-between;
+}
+
+.signup{
+    margin-left: auto;
+    margin-right: 20px;
 }
 
 .links{
@@ -45,4 +49,60 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.social,
+.subscribe{
+    align-self: flex-end;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.photo-grid > div{
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    /* border-radius: 150px;
+    overflow: hidden; */
+}
+
+.photo-grid div:first-child{
+    order: 1;
+}
+
+.photo-grid div:last-child{
+    order: -1;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item{
+    height: 200px;
+    background-color: #d6d9fe;
+    border: 1px solid white;
+    flex: 1;
+}
+
+.footer-item:first-child,
+.footer-item:last-child{
+    background-color: #5995DA;
+    width: 300px;
+    flex: initial;
 }
