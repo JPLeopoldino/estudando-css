@@ -1,0 +1,28 @@
+header{
+    padding-top: 30px;
+    background-color: #ffc107;
+}
+
+a{
+    color: #000;
+}
+
+a:hover{
+    color: #FFF;
+}
+
+img{
+    width: 100%;
+}
+
+.bravo-logo{
+    margin-right: 25px;
+    margin-top: -25px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.bravo-logo:hover{
+    filter: brightness(130%) contrast(90%);
+    transition: 0.2s ease-in-out;
+}
